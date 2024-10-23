@@ -10,7 +10,7 @@
 
 2. **Przejdź do katalogu projektu**
    ```bash
-   cd nazwa-repozytorium
+   cd mizzox-test-task
    ```
 
 3. **Instalacja zależności**
