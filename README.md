@@ -51,7 +51,7 @@
   ```bash
   php artisan test
   ```
-- Plik `.env.example` zawiera przykładowe konfiguracje, które są podobne do tych używanych przy komunikacji z bazą danych. Aby rozpocząć, nie trzeba ustawiać własnych kredencjałów. Wystarczy stworzyć bazę danych o nazwie `mizzox_task`.
+- Plik `.env.example` zawiera przykładowe konfiguracje, które są podobne do tych używanych przy komunikacji z bazą danych.
 
 ## Endpointy
 
