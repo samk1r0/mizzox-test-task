@@ -1,5 +1,58 @@
 # API do wypożyczania książek
 
+## Kroki do uruchomienia
+
+1. **Klonowanie repozytorium**
+   Otwórz terminal i sklonuj repozytorium projektu:
+   ```bash
+   git clone https://github.com/samk1r0/mizzox-test-task
+   ```
+
+2. **Przejdź do katalogu projektu**
+   ```bash
+   cd nazwa-repozytorium
+   ```
+
+3. **Instalacja zależności**
+   Zainstaluj wszystkie wymagane pakiety:
+   ```bash
+   composer install
+   ```
+
+4. **Konfiguracja bazy danych**
+   Skopiuj plik `.env.example` do `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+
+5. **Migracja bazy danych**
+   Wykonaj migracje:
+   ```bash
+   php artisan migrate
+   ```
+
+6. **Seedowanie bazy danych**
+   Aby wypełnić bazę danych przykładowymi danymi, uruchom polecenie:
+   ```bash
+   php artisan db:seed
+   ```
+
+7. **Uruchomienie serwera**
+   Uruchom serwer lokalnie:
+   ```bash
+   php artisan serve
+   ```
+
+8. **Testowanie API**
+   Po uruchomieniu serwera, API powinno być dostępne pod adresem `http://localhost:8000`.
+
+## Dodatkowe informacje
+- Aby uruchomić testy funkcjonalne, użyj polecenia:
+  ```bash
+  php artisan test
+  ```
+- Plik `.env.example` zawiera przykładowe konfiguracje, które są podobne do tych używanych przy komunikacji z bazą danych. Aby rozpocząć, nie trzeba ustawiać własnych kredencjałów. Wystarczy stworzyć bazę danych o nazwie `mizzox_task`.
+
 ## Endpointy
 
 ### 1. Listowanie książek
